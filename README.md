@@ -124,30 +124,6 @@ TRUSTED_IPS=192.168.1.1,10.0.0.1
 
 ## Testing
 
-### Running Tests
-
-```bash
-# Run all tests
-npm test
-
-# Run tests in watch mode
-npm run test:watch
-
-# Run tests with coverage
-npm test -- --coverage
-```
-
-### Test Coverage
-
-The test suite covers:
-
-- ✅ Webhook signature verification
-- ✅ IP address validation
-- ✅ Timestamp validation (replay attack prevention)
-- ✅ Payload validation
-- ✅ Error handling
-- ✅ Integration tests
-
 ### Manual Testing
 
 1. **Health Check**
